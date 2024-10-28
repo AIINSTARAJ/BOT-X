@@ -1,0 +1,36 @@
+body {
+    background-image: url('../data/bg-main.jpg');
+    background-size: cover;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    align-items: center;
+}
+
+header {
+    font-size: 32px;
+    font-weight: bold;
+    color: #ceab11;
+    margin: 20px auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Added media query for mobile responsiveness */
+@media only screen and (max-width: 768px) {
+    body {
+        background-image: url('../data/bg-main.jpg');
+        background-size: cover;
+        background-position: fixed;
+        background-repeat: no-repeat;
+        font-family: Arial, sans-serif;
+        align-items: center;
+        height: 100vh;
+    }
+    header {
+        margin-top: 50px;
+        font-size: 24px;
+        font-weight: bold;
+        color: #ceab11;
+    }
+}

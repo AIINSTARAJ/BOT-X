@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+
+{% block title %} Signup {% endblock %}
+
+{% block meta %}
+<meta property="og:image" content="">
+<meta name="author" content="A.I Instaraj">
+<meta name="description" content="Chat with BOT-X. Provision of advanced tools for natural language processing. Built with love by A.I Instaraj">
+{% endblock %}
+
+{% block content %}
+<br>
+<div class="signup-card">
+  <h2>Signup</h2>
+  <hr color="yellow">
+  <form method="post" action="/signup">
+    <div class="input-group">
+      <label>Username</label>
+      <input type="text" name="name">
+    </div>
+    <div class="input-group">
+      <label>Email</label>
+      <input type="email" name="mail">
+    </div>
+    <div class="input-group">
+      <label>Password</label>
+      <div class="password-input">
+        <input type="password" id="password" name="pwd">
+        <span class="eye-icon" id="password-eye"></span>
+      </div>
+    </div>
+    <div class="input-group">
+      <label>Confirm Password</label>
+      <div class="password-input">
+        <input type="password" id="confirm-password" name="confirm_password">
+        <span class="eye-icon" id="confirm-password-eye"></span>
+      </div>
+    </div>
+    <br>
+    <div id="error-message" style="color: rgb(161, 42, 42);"></div>
+    <br>
+    <button type="submit">Register Now</button>
+    <br><br>
+    <hr color="yellow">
+    <br>
+    <div class="under-txt">BOT-X</div>
+  </form>
+</div>
+</div>
+<link rel="stylesheet" href="../static/css/signup.css">
+<script src="{{ url_for('static', filename='js/app.js') }}"></script>
+{% endblock %}

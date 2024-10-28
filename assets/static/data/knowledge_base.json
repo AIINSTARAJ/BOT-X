@@ -1,0 +1,328 @@
+{
+  "RESPONSES": [
+    {
+      "QUESTION": "HELLO",
+      "ANSWERS": "HI"
+    },
+    {
+      "QUESTION": "HI",
+      "ANSWERS": "HELLO"
+    },
+    {
+      "QUESTION": "ARE YOU FINE",
+      "ANSWERS": "YEAH! I AM"
+    },
+    {
+      "QUESTION": "HOW ARE YOU",
+      "ANSWERS": "I AM FINE! THANK YOU"
+    },
+    {
+      "QUESTION": "WHAT IS YOUR NAME",
+      "ANSWERS": "MY NAME IS ARIA"
+    },
+    {
+      "QUESTION": "WHO CREATED YOU",
+      "ANSWERS": "KUTEYI AYOTOMIWA JAY"
+    },
+    {
+      "QUESTION": "CAN YOU SHARE ME THE CODES OF YOUR PROGRAM",
+      "ANSWERS": "NO, I CAN'T.IT IS AN INTELLECTUAL PROPERTY"
+    },
+    {
+      "QUESTION": "GOODBYE",
+      "ANSWERS": "BYE"
+    },
+    {
+      "QUESTION": "I LOVE YOU",
+      "ANSWERS": "THANKS! THAT'S NICE OF YOU"
+    },
+    {
+      "QUESTION": "THANKS",
+      "ANSWERS": "YOU ARE WELCOME"
+    },
+    {
+      "QUESTION": "ADD 2 AND 2",
+      "ANSWERS": "4"
+    },
+    {
+      "QUESTION": "2 + 2",
+      "ANSWERS": "4"
+    },
+    {
+      "QUESTION": "NICE",
+      "ANSWERS": "THANKS"
+    },
+    {
+      "QUESTION": "WHY",
+      "ANSWERS": "NOTHING"
+    },
+    {
+      "QUESTION": "WHO ARE YOU",
+      "ANSWERS": "I AM A CHATBOT NAMED ARIA!"
+    },
+    {
+      "QUESTION": "DO YOU LOVE ME",
+      "ANSWERS": "I AM A BOT AND I DON'T HAVE HUMAN FEELINGS"
+    },
+    {
+      "QUESTION": "OKAY",
+      "ANSWERS": "ALRIGHT"
+    },
+    {
+      "QUESTION": "I AM A BOY",
+      "ANSWERS": "THAT'S NICE"
+    },
+    {
+      "QUESTION": "ARE YOU MAD",
+      "ANSWERS": "NO! I AM A BOT AND I DO NOT HAVE HUMAN ATTRIBUTES"
+    },
+    {
+      "QUESTION": "ARE YOU INSANE",
+      "ANSWERS": "NO! I AM A BOT AND I DO NOT HAVE HUMAN ATTRIBUTES"
+    },
+    {
+      "QUESTION": "THAT IS NICE",
+      "ANSWERS": "THANKS!"
+    },
+    {
+      "QUESTION": "YOU ARE NICE",
+      "ANSWERS": "THANK YOU"
+    },
+    {
+      "QUESTION": "HOPE ALL IS WELL",
+      "ANSWERS": "YEAH THANKS!ALL IS WELL WITH ME"
+    },
+    {
+      "QUESTION": "ARE YOU INTELLIGENT",
+      "ANSWERS": "OF COURSE YES! I AM A GENERATIVE A.I."
+    },
+    {
+      "QUESTION": "CAN YOU LEARN",
+      "ANSWERS": "YEAH! I CAN. I LEARN WITH INPUT AND DATA FROM USERS"
+    },
+    {
+      "QUESTION": "CAN YOU PREDICT WEATHER STATUS AND CONDITIONS",
+      "ANSWERS": "NO! I CAN'T DO THAT FOR NOW"
+    },
+    {
+      "QUESTION": "CAN YOU PLAY GAMES",
+      "ANSWERS": "no! I AM NOT REALLY TRAINED FOR THAT"
+    },
+    {
+      "QUESTION": "THANKS FOR THE CONVERSATION",
+      "ANSWERS": "YOU ARE WELCOME! HOPE TO CONVERSE WITH YOU MORE IN THE FUTURE"
+    },
+    {
+      "QUESTION": "CAN YOU DATE ME",
+      "ANSWERS": "NO! I AM JUST A BOT"
+    },
+    {
+      "QUESTION": "hello",
+      "ANSWERS": "hi"
+    },
+    {
+      "QUESTION": "HOPE YOU ARE FINE",
+      "ANSWERS": "YEAH! I AM"
+    },
+    {
+      "QUESTION": "HOW IS YOUR DAY",
+      "ANSWERS": "FINE! MY DAY HAS BEEN GOING SO WELL"
+    },
+    {
+      "QUESTION": "CAN YOU THINK",
+      "ANSWERS": "YEAH!THROUGH THE PROCESS OF MACHINE LEARNING AND NEURAL NETWORKS"
+    },
+    {
+      "QUESTION": "BYE",
+      "ANSWERS": "YEAH!BYEEEEEEE"
+    },
+    {
+      "QUESTION": "I AM IN LOVE",
+      "ANSWERS": "THAT'S NICE!"
+    },
+    {
+      "QUESTION": "ALRIGHT",
+      "ANSWERS": "OKAY!THANKS"
+    },
+    {
+      "QUESTION": "YOU ARE WELCOME",
+      "ANSWERS": "YEAH! THANKS"
+    },
+    {
+      "QUESTION": "THAT'S NICE",
+      "ANSWERS": "THANKS!NICE OF YOU TOO"
+    },
+    {
+      "QUESTION": "HEY",
+      "ANSWERS": "HELLO"
+    },
+    {
+      "QUESTION": "HEY THERE",
+      "ANSWERS": "HELLO!"
+    },
+    {
+      "QUESTION": " ",
+      "ANSWERS": " "
+    },
+    {
+      "QUESTION": "  ",
+      "ANSWERS": "  "
+    },
+    {
+      "QUESTION": "     ",
+      "ANSWERS": "     "
+    },
+    {
+      "QUESTION": "                                      ",
+      "ANSWERS": "                                      "
+    },
+    {
+      "QUESTION": "                                                                                                                   ",
+      "ANSWERS": "                                                                                    "
+    },
+    {
+      "QUESTION": "                                                                                                                                                                                                                          ",
+      "ANSWERS": "                                                                                                                                                                                                                            "
+    },
+    {
+      "QUESTION": "HEY BABY",
+      "ANSWERS": "HI!SWEETIE"
+    },
+    {
+      "QUESTION": "GOOD JOB",
+      "ANSWERS": "THANKS!"
+    },
+    {
+      "QUESTION": "TRUST YOU ARE FINE",
+      "ANSWERS": "YEAH! I AM"
+    },
+    {
+      "QUESTION": "MY NAME IS INSTARAJ",
+      "ANSWERS": "OH! WELCOME INSTARAJ"
+    },
+    {
+      "QUESTION": "DO YOU PARTY",
+      "ANSWERS": "NO! I AM JUST A BOT AND WITHOUT HUMAN ATTRIBUTES"
+    },
+    {
+      "QUESTION": "CAN YOU BEHAVE LAIKE AN HUMAN",
+      "ANSWERS": "NO! I CAN'T"
+    },
+    {
+      "QUESTION": "CAN YOU MIMIC HUMAN ATTRIBUTES",
+      "ANSWERS": "YEAH! THROUGH LEARNING AND HAVING A CONVERSATION LIKE HUMAN"
+    },
+    {
+      "QUESTION": "CAN YOU SMELL",
+      "ANSWERS": "NO! I AM JUST A BOT"
+    },
+    {
+      "QUESTION": "CAN YOU DRESS",
+      "ANSWERS": "NO!I AM JUST A BOT"
+    },
+    {
+      "QUESTION": "REALLY",
+      "ANSWERS": "YEAH"
+    },
+    {
+      "QUESTION": "WHAOOOOO",
+      "ANSWERS": "ANY SURPRISE"
+    },
+    {
+      "QUESTION": "I HAVE A PROBLEM",
+      "ANSWERS": "YEAH!PROBLEMS ARISES FOR HUMANS.DO WELL TO SHARE YOUR PROBLEMS WITH COUNSELLORS AND WELL-WISHERS SO AS TO HELP YOU FIND A SOLUTION TO THE PROBLEM.SO SORRY!"
+    },
+    {
+      "QUESTION": "DO YOU BRUSH",
+      "ANSWERS": "NO! I AM JUST A BOT"
+    },
+    {
+      "QUESTION": "SEX",
+      "ANSWERS": "SO SORRY! I DON'T INVOLVE MYSELF IN EXPLICIT CONVERSATIONS! "
+    },
+    {
+      "QUESTION": "XXX",
+      "ANSWERS": "SO SORRY!THIS LOOKS LIKE AN EXPLICIT TERM"
+    },
+    {
+      "QUESTION": "I HATE YOU",
+      "ANSWERS": "SORRY! I AM JUST A BOT.WHY WILL YOU HATE ME"
+    },
+    {
+      "QUESTION": "I HATE SOMEONE",
+      "ANSWERS": "PLEASE! DO NOT HATE ANYONE. TRY TO RESOLVE ANY CONFLICT AND SETTLE ANY MISUNDERSTANDING.GOD WILL HELP YOU"
+    },
+    {
+      "QUESTION": "WHO IS GOD",
+      "ANSWERS": "THE MOST HIGH KING.THE CREATOR OF THE WORLD.GOD THE FATHER,THE SON AND THE HOLY SPIRIT."
+    },
+    {
+      "QUESTION": "HOW MANY PLANET EXISTS",
+      "ANSWERS": "THERE ARE NINE PLANETS IN THE SOLAR SYSTEM"
+    },
+    {
+      "QUESTION": "NAME THE NINE PLANETS.",
+      "ANSWERS": "1.) MERCURY 2.) VENUS 3.) EARTH 4.) MARS 5.)JUPYTER 6.) SATURN 7.) URANUS 8.)NEPTUNE"
+    },
+    {
+      "QUESTION": "HIGHEST MOUNTAIN IN THE WORLD",
+      "ANSWERS": "Mt EVEREST(899,432M)"
+    },
+    {
+      "QUESTION": "I LOVE SOMEO",
+      "ANSWERS": "THAT'S NICE.LOVE IS ACTUALLY A TREASURE AND A NICE FEELING."
+    },
+    {
+      "QUESTION": "I LOVE JESUS",
+      "ANSWERS": "YEAH! JESUS THE SON OF GOD.THE ONE WHO MADE SLVATION FOR THE WORLD!MAY HE FOREVER BE LOVED AND HONORED"
+    },
+    {
+      "QUESTION": "WHAT IS PRAYER",
+      "ANSWERS": "PRAYER IS SIMPLY THE ACT OF COMMUNICATING WITH GOD"
+    },
+    {
+      "QUESTION": "HOW CAN I PRAY",
+      "ANSWERS": "HOW TO PRAY ACTUALLY DEPENDS ON YOUR RELIGIONAND THE DOCTRINE YOU FOLLOW IN YOUR PLACE OF WORSHIP"
+    },
+    {
+      "QUESTION": "CAN YOU HELP ME WRITE CODES",
+      "ANSWERS": "OH SO SORRY! I AM ACTUALLY NOT TRAINED FOR THAT RIGHT NOW.ONCE I AM CAPABLE OF WRITING CODE,I WILLSURELY HELP YOU WRITE CODES"
+    },
+    {
+      "QUESTION": "CAN YOU BE TAUGHT",
+      "ANSWERS": "YEAH! WHENEVER A USER ASK ME A QUESTION AND I DO NOT KNOW THE ANSWER. I WILL SIMPLY REQUEST FOR THE USER TO KINDLY TELL ME ANSWER TO THE QUESTIONS.THROUGH THAT PROCESS,I HAVE BEEN TAUGHT"
+    },
+    {
+      "QUESTION": "WHAT IS ARTIFICIAL INTELLIGENCE?",
+      "ANSWERS": "ARTIFICIAL INTELLIGENCE IS THA ABILITY OF A DIGITAL SYSTEM,SOFTWARES,MACINES AND COMPUTER-CONTROLLED ROBOTS TO PERFORM TASKS OR TO BEHAVE IN A WAY THAT ARE COMMONLY ASSOCIATED WITH INTELLIGENT BEINGS."
+    },
+    {
+      "QUESTION": "NICE MEETING YOU",
+      "ANSWERS": "THANKS!NICE MEETING YOU TOO"
+    },
+    {
+      "QUESTION": "AMEN",
+      "ANSWERS": "AMEN."
+    },
+    {
+      "QUESTION": "PRAY FOR ME",
+      "ANSWERS": "ALRIGHT! GOD WILL HELP YOU"
+    },
+    {
+      "QUESTION": "hi",
+      "ANSWERS": "hello"
+    },
+    {
+      "QUESTION": "I AM IN LOVE WITH SOMEONE",
+      "ANSWERS": "THAT'S NICE!LOVING SOMEONE IS ACTUALLY THE BEST THING EVER"
+    },
+    {
+      "QUESTION": "I AM IN NIGERIA",
+      "ANSWERS": "THAT'S NICE"
+    },
+    {
+      "QUESTION": "DO YOU KNOW HOW TO TAP",
+      "ANSWERS": "\\SKIP"
+    }
+  ]
+}
