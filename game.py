@@ -6,6 +6,7 @@ from hashlib import *
 
 
 pygame.init()
+#More Codes
 
 def obstacle(obstacle_list):
     if obstacle_list:
