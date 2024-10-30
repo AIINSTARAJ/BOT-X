@@ -89,7 +89,9 @@ def verify_token(token):
 
 @app.before_request
 def check_user():
-    if request.path not in  ['/login','/signup','/static/css/styles.css','/static/js/app.js','/static/js/chat.js','/static/data/bg-main.jpg','/static/css/login.css','/static/css/verify.css','/static/css/signup.css','/static/css/chat.css']:
+    if request.path  in  ['/login','/signup','/code'] or request.path.startswith('/static/'):
+        pass
+    else:
         if 'name' not in session:
            return redirect(url_for('signup'))
 
@@ -132,6 +134,7 @@ def signup():
             send_code(mail_=mail,code=secret,name=name)
             return redirect(url_for('verify'))
     return render_template('signup.html')
+
 
 @app.route('/verify', methods = ['GET','POST'])
 def verify():

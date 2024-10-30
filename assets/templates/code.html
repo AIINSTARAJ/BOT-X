@@ -1,32 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> BOT-X Verification Code </title>
-</head>
-<style> 
-    h1{
-        font-size: 24px;
-        color: yellow;
-    }
-    .name{
-        font-size: 16px;
-        color: aquamarine;
-    }
-    .code{
-        font-size: 18px;
-        color: black;
-    }
-</style>
-<body>
+{% extends 'base.html' %}
+
+{% block title %} Code {% endblock %}
+
+{% block meta %}
+<meta property="og:image" content="">
+<meta name="author" content="A.I Instaraj">
+<meta name="description" content="Chat with BOT-X. Provision of advanced tools for natural language processing. Built with love by A.I Instaraj">
+{% endblock %}
+
+{% block content %}
+<link rel="stylesheet" href="../static/css/code.css">
+<div id="div">
     <h1>
         BOT-X Verification Code 
     </h1>
     <br> 
     <hr color="yellow">
     <br>
-    <p> 
+    <div>
         <div id="name"> 
             HI <b>{{ name }}</b>
         </div>
@@ -34,8 +25,8 @@
             Welcome to BOT-X
         </p>
         <div id="code"> 
-            {{ code }}
+            Your BOT-X Verification Code is <span>{{ code }}</span>
         </div>
-    </p>
-</body>
-</html>
+    </div>
+</div>
+{% endblock %}
