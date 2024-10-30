@@ -13,16 +13,18 @@ h2{
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px yellow;
-    height: 472px;
+    height: 480px;
     width: 42%;
     margin-left: 29%;
     margin-top: 18px;
+    margin-bottom: 50px;
 }
 
 .under-txt{
     color: rgb(243, 239, 12);
     text-align: center;
-    font-size: 12px;
+    font-size: 18px;
+    margin-top: 5px;
 }
 
 .input-group {
@@ -108,24 +110,24 @@ h2{
     box-shadow: 0 0 10px yellow;
     width: 90%;
     margin: 10px auto;
-    height: 550px;
+    height: 510px;
     margin-top: 50px;
 }
 .container {
-width: 100%;
-margin: 10px auto;
+    width: 100%;
+    margin: 10px auto;
 }
 
 .input-group {
-margin-top: 10px;
+    margin-top: 10px;
 }
 
 .input-group label {
-color: rgb(255, 255, 255);
-margin-left: 32px;
-display: block;
-margin-bottom: 10px;
-font-size: 16px;
+    color: rgb(255, 255, 255);
+    margin-left: 32px;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
 }
 
 .input-group input {
@@ -167,5 +169,6 @@ font-size: 16px;
     color: rgb(214, 211, 22);
     text-align: center;
     font-size: 16px;
+    margin-top: 10px;
 }
 }

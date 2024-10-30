@@ -3,6 +3,9 @@
 {% block title %} Verify {% endblock %}
 {% block content %}
     <br>
+    <div id="upper_txt">
+        <b> Enter the Verification Code sent to your Email </b>
+    </div>
     <div class="verify-card">
         <h2> Verify </h2>
         <hr color="yellow">
@@ -24,82 +27,5 @@
             </div>
         </form>
     </div>
-    <style>
-        .container {
-            width: 100%;
-            margin: 40px auto;
-        }
-        h2{
-            text-align: center;
-            font-size: 20px;
-        }
-        .verify-card {
-            background-color: rgb(15, 33, 194);
-            border-color: yellow;
-            border-width: 25px;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px yellow;
-            height: 250px;
-            width: 280px;
-            margin-left: 40%;
-            margin-top: 90px;
-            margin-bottom: 150px;
-        }
-
-        .under-txt{
-            color: rgb(214, 211, 22);
-            text-align: center;
-            font-size: 12px;
-        }
-
-        .input-group {
-            margin-top: 20px;
-        }
-
-        .input-group label {
-            color: rgb(255, 255, 255);
-            text-align: center;
-            display: block;
-            margin-bottom: 10px;
-            font-size: 16px;
-        }
-
-        .input-group input {
-            margin-left: 20%;
-            width: 60%;
-            padding: 7.5px;
-            border-width: 1px;
-            border-color: #ddd;
-            border-style: dotted;
-            border-radius: 5px;
-            font-size: 15px;
-            color: rgb(14, 13, 13);
-            border-color: aquamarine;
-        }
-
-
-        button[type="submit"] {
-            background-color: #4CAF50;
-            color: #fff;
-            padding: 5px;
-            border-radius: 5px;
-            cursor: pointer;
-            text-align: center;
-            border-style: dotted;
-            margin-left: 29%;
-            font-size: 18px;
-            border-color: yellow;
-            width: 42%;
-        }
-
-        button[type="submit"]:hover {
-            background-color: #83df0a;
-        }
-
-        #error-message {
-            font-size: 12px;
-            margin-left: 25%;
-        }
-    </style>
+    <link rel="stylesheet" href="../static/css/verify.css">
 {% endblock %}

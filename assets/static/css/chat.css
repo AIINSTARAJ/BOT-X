@@ -1,0 +1,180 @@
+.chat-container {
+
+    width: 32%;
+
+    height: 500px;
+
+    border: 2.5px solid;
+
+    border-radius: 15px;
+
+    padding: 20px;
+
+    margin-left: 34%;
+
+    margin-top: 60px;
+
+    background-color: rgb(226, 167, 89);
+    border-color: yellow;
+    
+}
+
+.chat-header {
+
+    background-color: rgb(11, 44, 190);
+
+    padding: 10px;
+
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+    border-color: yellow;
+
+}
+
+.chat-messages {
+
+    padding: 20px;
+
+    overflow-y: auto;
+
+    height: 400px;
+    scrollbar-color: yellow;
+    scrollbar-width: 10px;
+
+}
+
+.message {
+
+    margin-bottom: 10px;
+
+}
+
+#message-input{
+        margin-left: 16%;
+        width: 60%;
+        padding: 4px;
+        border-width: 2.5px;
+        border-color: white;
+        border-style: solid;
+        border-radius: 5px;
+        font-size: 17.5px;
+        color: rgb(0, 0, 0); 
+        background-color: rgb(250, 250, 250);
+        font-family: sans-serif;
+        font-style: italic;
+        margin-top: 0px;
+    }
+
+
+#send-button{
+    margin-left: 12px;
+    font-size: larger;
+    color: rgb(25, 209, 25);
+    height: 32px;
+    width: 36px;
+    border-width: 2.5px;
+    border-color: #d3b894;
+    border-style: solid;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#send-button:hover{
+    background-color: rgb(233, 233, 15);
+}
+.user-message {
+
+    background-color: #4ad61fb6;
+
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 160px;
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 12px;
+    font-display: swap;
+}
+
+.bot-message {
+
+    background-color: whitesmoke;
+    font-family: sans-serif;
+    font-style: italic;
+    color: rgb(26, 26, 27);
+
+    padding: 10px;
+    font-size: 12px;
+
+    border-radius: 10px;
+    margin-right: 180px;
+    margin-top: 20px;
+
+}
+@media only screen and (max-width: 768px) {
+/* Chat container adjustments for mobile screens */
+.chat-container {
+    width: 90%; /* Full width on mobile */
+    height: 500px; /* Adjust height for mobile */
+    margin: 20px auto; /* Centered on screen */
+    padding: 15px;
+    background-color: rgb(226, 167, 89);
+    border: 2px solid yellow;
+    border-radius: 10px;
+    margin-top: 60px;
+}
+
+/* Chat header style */
+.chat-header {
+    font-size: 18px; /* Increased for visibility */
+    padding: 10px;
+    background-color: rgb(16, 54, 221);
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* Chat messages section adjustments for mobile */
+.chat-messages {
+    height: 400px; /* Adjusted to fit screen */
+    padding: 10px;
+    overflow-y: auto;
+    scrollbar-color: yellow;
+    scrollbar-width: thin;
+}
+
+/* User message layout */
+.user-message {
+    margin-left: 20%; /* Adjusted for mobile */
+    font-size: 14px; /* Slightly larger font */
+}
+
+/* Bot message layout */
+.bot-message {
+    margin-right: 20%; /* Adjusted for mobile */
+    margin-top: 10px; /* Reduced spacing */
+    font-size: 14px;
+}
+
+/* Input field styling for mobile */
+#message-input {
+    width: 70%; /* Larger input field for typing */
+    margin-left: 5%; /* Centered input */
+    padding: 8px; /* Larger padding for easier touch interaction */
+    font-size: 16px;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+/* Send button adjustments for mobile */
+#send-button {
+    width: 40px;
+    height: 35px; /* Larger button for touch */
+    font-size: 18px; /* Larger icon */
+    margin-left: 5px; /* Closer to input */
+    border: 2px solid #d3b894;
+    border-radius: 5px;
+    cursor: pointer;
+}
+}
