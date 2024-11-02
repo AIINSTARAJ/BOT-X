@@ -92,7 +92,7 @@ def verify_token(token):
 
 @app.before_request
 def check_user():
-    if request.path  in  ['/login','/signup','/code'] or request.path.startswith('/static/'):
+    if request.path  in  ['/login','/signup','/code','/favicon.ico'] or request.path.startswith('/static/'):
         pass
     else:
         if 'token' not in session:
@@ -207,6 +207,14 @@ def login():
 def chat():
     return render_template('chat.html')
 
+@app.errorhandler(404)
+def not_found(error):
+    return 'Page not Found'
+
+@app.errorhandler(500)
+def server_error(error):
+    return 'Error in Server. Try Again Later'
+    
 @app.route('/bot-api', methods=['POST'])
 def bot_api():
     auth = session.get('token')
