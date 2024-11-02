@@ -1,10 +1,8 @@
 from flask import *
 
-from bot import *
-
 from flask_sqlalchemy import SQLAlchemy #type:ignore
 
-from flask_mail import *
+from flask_mail import Mail, Message
 
 from sqlalchemy.sql import func #type:ignore
 
@@ -19,6 +17,10 @@ import time
 import jwt
 
 from dotenv import load_dotenv
+
+from chat import bot
+
+from bot import *
 
 app = Flask(__name__,
             template_folder="assets/templates",
@@ -53,6 +55,7 @@ class user(db.Model):
     username = db.Column(db.String(12),nullable = False)
     password = db.Column(db.String(128),nullable = False)
     mail = db.Column(db.String(48),nullable = False)
+    token = db.Column(db.String(100),nullable = False)
     auth_date = db.Column(db.DateTime(timezone=True), server_default = func.now())
 
     def __repr__(self):
@@ -92,7 +95,7 @@ def check_user():
     if request.path  in  ['/login','/signup','/code'] or request.path.startswith('/static/'):
         pass
     else:
-        if 'name' not in session:
+        if 'token' not in session:
            return redirect(url_for('signup'))
 
 @app.route("/")
@@ -105,7 +108,8 @@ def signup():
         a = session["name"]
         b = session["mail"]
         c = session['pwd']
-        if a and b and c:
+        d = session['token']
+        if a and b and c and d:
             return redirect(url_for('chat'))
     except Exception as E:
         print('----- User Session Not Found ----')
@@ -131,7 +135,7 @@ def signup():
             print('----- Signup Successful -----')
             global secret_code
             secret_code = randint(100000,999999)
-            send_code(mail_=mail,code=secret,name=name)
+            send_code(mail_=mail,code=secret_code,name=name)
             return redirect(url_for('verify'))
     return render_template('signup.html')
 
@@ -142,11 +146,12 @@ def verify():
         name = session['name']
         mail = session['mail']
         pwd = session['pwd']
-        if name and mail and pwd:
+        token = session['token']
+        if name and mail and pwd and token:
             code = request.form['code']
             global secret
             if int(code) == secret_code:
-                new_user = user(username = name, mail = mail, password = pwd)
+                new_user = user(username = name, mail = mail, password = pwd, token = token)
                 db.session.add(new_user)
                 db.session.commit() 
                 print(f'--- Verification Completed --- {name}')
@@ -157,6 +162,7 @@ def verify():
                 session.pop('name')
                 session.pop('mail')
                 session.pop('pwd')
+                session.pop('token')
                 return redirect(url_for('signup'))
         else:
             print('--- Error in getting Sessions ----')
@@ -168,7 +174,8 @@ def login():
     a = session.get("name")
     b = session.get("mail")
     c = session.get("pwd")
-    if a and b and c:
+    d = session.get("token")
+    if a and b and c and d:
         try:
             return redirect(url_for('chat'))
         except Exception as E:
@@ -184,6 +191,7 @@ def login():
                 session['name'] = User.username
                 session['mail'] = User.mail
                 session['pwd'] = User.password
+                session['token'] = User.token
                 try:
                     return redirect(url_for("chat"))
                 except Exception as E:
@@ -206,7 +214,7 @@ def bot_api():
     if id:
         data = request.get_json()
         message = data['message']
-        response = chat_bot(message)
+        response = bot(message) 
         return jsonify({ 'response': response ,'name': id})
     else:
         return jsonify({'error':'Unauthorized'})
