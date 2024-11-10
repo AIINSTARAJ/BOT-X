@@ -92,15 +92,15 @@ def verify_token(token):
 
 @app.before_request
 def check_user():
-    if request.path  in  ['/login','/signup','/code','/favicon.ico'] or request.path.startswith('/static/'):
+    if request.path  in  ['/login','/','/signup','/code','/favicon.ico'] or request.path.startswith('/static/'):
         pass
     else:
         if 'token' not in session:
-           return redirect(url_for('signup'))
+           return redirect(url_for('login'))
 
 @app.route("/")
 def index():
-    return render_template('index.html')
+    return render_template('sign.html')
 
 @app.route('/signup',methods = ['GET','POST'])
 def signup():
@@ -209,7 +209,7 @@ def chat():
 
 @app.errorhandler(404)
 def not_found(error):
-    return 'Page not Found'
+    return render_template('404.html')
 
 @app.errorhandler(500)
 def server_error(error):

@@ -10,22 +10,135 @@
 
 {% block content %}
 <link rel="stylesheet" href="../static/css/code.css">
-<div id="div">
-    <h1>
+<style> 
+    h1{
+        font-size: 24px;
+        color: yellow;
+        margin-top: 32px;
+        text-align: center;
+    }
+    #name{
+        font-size: 28px;
+        color: rgb(231, 217, 17);
+        font-style: italic;
+        text-align: center;
+    }
+    #code{
+        font-size: 28px;
+        color: rgb(240, 162, 18);
+        text-align: center;
+        margin-top: 50px;
+    }
+    #div_{
+        background-color: #0d59bd;
+        border-color: rgb(243, 243, 4);
+        border-width: 25px;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgb(240, 240, 4);
+        height: 360px;
+        width: 42%;
+        margin-left: 29%;
+        margin-top: 80px;
+        margin-bottom: 100px;
+    }
+    p{
+        text-align: center;
+        font-size: 28px;
+        margin-top: 50px;
+        color: rgb(221, 173, 15);
+    }
+    span{
+        color: rgb(199, 18, 216);
+        font-weight: bold;
+    }
+    @media only screen and (max-width: 768px) {
+        h1{
+            font-size: 24px;
+            color: yellow;
+            margin-top: 32px;
+            text-align: center;
+        }
+        #name{
+            font-size: 28px;
+            color: rgb(231, 217, 17);
+            font-style: italic;
+            text-align: center;
+        }
+        #code{
+            font-size: 28px;
+            color: rgb(240, 162, 18);
+            text-align: center;
+            margin-top: 50px;
+        }
+        #div{
+            background-color: #0d59bd;
+            border-color: rgb(243, 243, 4);
+            border-width: 25px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgb(240, 240, 4);
+            height: 360px;
+            width: 80%;
+            margin-left: 5%;
+            margin-top: 100px;
+        }
+        .container {
+            width: 100%;
+            margin-bottom: 100px;
+        }
+        p{
+            text-align: center;
+            font-size: 28px;
+            margin-top: 50px;
+            color: rgb(221, 173, 15);
+        }
+        span{
+            color: rgb(199, 18, 216);
+            font-weight: bold;
+        }
+    }
+</style>
+<div id="div_" style="background-color: #0d59bd;
+border-color: rgb(243, 243, 4);
+border-width: 25px;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 0 10px rgb(240, 240, 4);
+height: 360px;
+width: 42%;
+margin-left: 29%;
+margin-top: 80px;
+margin-bottom: 100px;">
+    <h1 style="font-size: 24px;
+    color: yellow;
+    margin-top: 32px;
+    text-align: center;">
         BOT-X Verification Code 
     </h1>
     <br> 
     <hr color="yellow">
     <br>
     <div>
-        <div id="name"> 
+        <div id="name" style="font-size: 28px;
+        color: rgb(231, 217, 17);
+        font-style: italic;
+        text-align: center;
+    "> 
             HI <b>{{ name }}</b>
         </div>
-        <p> 
+        <p style="text-align: center;
+        font-size: 28px;
+        margin-top: 50px;
+        color: rgb(221, 173, 15);"> 
             Welcome to BOT-X
         </p>
-        <div id="code"> 
-            Your BOT-X Verification Code is <span>{{ code }}</span>
+        <div id="code" style="font-size: 28px;
+        color: rgb(240, 162, 18);
+        text-align: center;
+        margin-top: 50px;"> 
+            Your BOT-X Verification Code is <span style="color: rgb(199, 18, 216);
+        font-weight: bold;">{{ code }}</span>
         </div>
     </div>
 </div>
